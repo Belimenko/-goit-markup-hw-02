@@ -1,0 +1,235 @@
+:root {
+    --accent-color : #2196F3;
+    --primary-text-color : #212121;
+    --secondary-text-color : #FFFFFF;
+    --black-text-color: #000000;
+    --gray-text-color: #757575;
+    --primery-background-color: #2F303A;
+    --modal-btn-backgraund:#188CE8;
+    --portfolio-btn: #F5F4FA;
+    --portfolio-background-color: #F5F4FA;
+    --portfolio-block: #EEEEEE;
+    --email-phone-footer-color: rgba(255, 255, 255, 0.6);
+    --primary-font : Roboto,sans-serif;
+    --secondary-font : Raleway;
+}
+.list-item {
+list-style : none;
+}
+.list-item {
+text-decoration : none;
+}
+img {
+    display: block;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+body {
+    font-family: var(--primary-font);
+}
+
+/*navigation*/
+.web {
+color: var(--accent-color);
+}
+.studio {
+color: var(--black-text-color);
+}
+.logo {
+font-family : var(--secondary-font);
+font-weight: 700;
+font-size : 26px;
+line-height : 1.19;
+letter-spacing : 0.03em;
+text-decoration: none;
+}
+
+.menu-link {
+font-weight : 500;
+font-size : 14px;
+Line-height : 1.29;
+color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color);
+}
+
+.navigation-list-link:hover, .navigation-list-link:focus {
+color : var(--secondary-text-color);
+background-color : var(--accent-color);
+}
+
+.navigation-list-link {
+color: var(--accent-color);
+list-style : none;
+text-decoration : none;
+}
+
+.navigation-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height : 1.14;
+letter-spacing : 0.02em;
+color: var(--primary-text-color);
+}
+
+.fhone-number {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--gray-text-color)
+}
+
+/* hero */
+.hero {
+background-color: var(--primery-background-color);
+}
+.slogan {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+}
+
+/*color: #ffffff */
+
+.modal-btn:hover .modal-btn:focus {
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.modal-btn {
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+background-color: var(--modal-btn-backgraund);
+color : var(--secondary-text-color);
+}
+/* hero */
+
+/* feature */
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+
+.feature {
+font-weight: 700;
+font-size : 14px;
+line-height : 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+.features-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+color: var(--gray-text-color);
+letter-spacing: 0.03em;
+}
+/* services */
+.titlt {
+font-weight: 700;
+font-size : 36px;
+line-height : 1.16;
+text-align : center;
+letter-spacing: 0.03em;
+color : var(--primary-text-color);
+}
+    /* /services*/
+
+/* наша команда */
+
+.our-team {
+    background-color: var(--portfolio-background-color);
+}
+
+.name-employees {
+font-weight: 500;
+ font-size:16px;
+ line-height : 1.18;
+ color : var(--primary-text-color);
+    }
+
+.speciality {
+font-weight: 400;
+font-size : 16px;
+line-height : 1.18;
+color : var(--gray-text-color);
+    }
+
+
+ /* portfilio */
+.portfolio-block {
+    background-color: var(--portfolio-block);
+}
+
+.portfolio-button {
+font-family: inherit;
+font-weight: 500;
+font-style : medium;
+font-size : 16px;
+line-height : 1.62;
+color:var(--primary-text-color);
+background-color : var(--portfolio-btn);
+}
+ /* footer */
+.footer-block {
+background-color: var(--primery-background-color);
+ }
+ .logo-footer {
+ font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+ }
+ .web-footer {
+     color: var(--accent-color);
+ }
+ .studio-footer {
+    color: var(--secondary-text-color);
+ }
+ .address-footer {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;   
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+ }
+.email-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;    
+letter-spacing: 0.03em;
+color: var(--email-phone-footer-color);
+}
+ .fhone-number-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--email-phone-footer-color)
+ }
+  /* fFooter */
