@@ -15,9 +15,7 @@
 }
 .list-item {
 list-style : none;
-}
-.list-item {
-text-decoration : none;
+text-decoration: none;
 }
 img {
     display: block;
@@ -49,11 +47,12 @@ text-decoration: none;
 .menu-link {
 font-weight : 500;
 font-size : 14px;
-Line-height : 1.29;
+line-height : 1.29;
 color: var(--primary-text-color);
 }
 
-.site-nav .link.current {
+.site-nav 
+.current {
 color: var(--accent-color);
 }
 
@@ -180,7 +179,7 @@ color : var(--gray-text-color);
 
  /* portfilio */
 .portfolio-block {
-    background-color: var(--portfolio-block);
+background-color: var(--portfolio-block);
 }
 
 .portfolio-button {
@@ -197,7 +196,7 @@ background-color : var(--portfolio-btn);
 background-color: var(--primery-background-color);
  }
  .logo-footer {
- font-family: var(--secondary-font);
+font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -219,6 +218,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
  }
 .email-footer {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;    
@@ -226,6 +226,7 @@ letter-spacing: 0.03em;
 color: var(--email-phone-footer-color);
 }
  .fhone-number-footer {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
