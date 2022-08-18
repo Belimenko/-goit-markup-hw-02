@@ -13,6 +13,26 @@
     --primary-font : Roboto,sans-serif;
     --secondary-font : Raleway;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.containar {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .list-item {
 list-style : none;
 text-decoration: none;
@@ -57,8 +77,7 @@ color: var(--accent-color);
 }
 
 .navigation-list-link:hover, .navigation-list-link:focus {
-color : var(--secondary-text-color);
-background-color : var(--accent-color);
+color: var(--accent-color);
 }
 
 .navigation-list-link {
@@ -164,9 +183,9 @@ color : var(--primary-text-color);
 
 .name-employees {
 font-weight: 500;
- font-size:16px;
- line-height : 1.18;
- color : var(--primary-text-color);
+font-size:16px;
+line-height : 1.18;
+color : var(--primary-text-color);
     }
 
 .speciality {
@@ -179,17 +198,33 @@ color : var(--gray-text-color);
 
  /* portfilio */
 .portfolio-block {
-background-color: var(--portfolio-block);
 }
-
+.title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--gray-text-color);
+}
+.projects {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
 .portfolio-button {
 font-family: inherit;
 font-weight: 500;
-font-style : medium;
 font-size : 16px;
 line-height : 1.62;
 color:var(--primary-text-color);
 background-color : var(--portfolio-btn);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+color: var(--secondary-text-color);
+background-color: var(--accent-color);
 }
  /* footer */
 .footer-block {
